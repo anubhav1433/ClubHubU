@@ -47,13 +47,14 @@ body {
 }
 /* Welcome section styling */
 .welcome-section {
-    width: 500px;
+    width: 450px;
     margin: auto;
     margin-top: 4%;
     padding: 20px;
     border: 1px solid black;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     background-color: rgba(255, 137, 2, 0.6);
+    border-radius: 10%;
 }
 .welcome-section h1{
     height: 100%;
@@ -72,11 +73,15 @@ body {
 .button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #007bff; /* Changed color to a lighter shade of blue */
+    background-color: #007bff;
     color: #fff;
     border: none;
     cursor: pointer;
-    border-radius: 5px; /* Added rounded corners */
+    border-radius: 5px;
+  }
+
+  .button:hover{
+    background-color: orange;
   }
 
   footer{
